@@ -1,4 +1,6 @@
+DROP DATABASE IF EXISTS FORO;
 CREATE DATABASE FORO;
+USE FORO;
 CREATE TABLE IF NOT EXISTS `Usuarios` (
   `nombre` varchar(25) NOT NULL,
   `password` varchar(25) NOT NULL,
